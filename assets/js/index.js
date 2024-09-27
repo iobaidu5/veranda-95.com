@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("li.active, li.active2").removeClass("active active2");
 
-  if (location.pathname === "/les-aides" || location.pathname === "/nos-styles" || location.pathname === "/pergolas-bio" || location.pathname === "/pergolas-classique" || location.pathname === "/menuiserie" || location.pathname === "/volets-roulants") {
+  if (location.pathname === "/les-etapes" || location.pathname === "/nos-styles" || location.pathname === "/pergolas-bio" || location.pathname === "/pergolas-classique" || location.pathname === "/menuiserie" || location.pathname === "/volets-roulants") {
     $('a[href="' + location.pathname + '"]')
       .closest("li")
       .addClass("active2");
